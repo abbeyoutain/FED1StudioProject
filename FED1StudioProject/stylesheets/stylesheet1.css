@@ -1,4 +1,5 @@
-﻿body {
+﻿/*#region General*/
+body {
     background-color: #E8E6B7;
     color: #453F59;
 }
@@ -31,5 +32,36 @@ h2 {
 }
 
 p {
-    font-style: italic;
+
 }
+/*#endregion */
+
+/*#region Index */
+
+
+
+/*#endregion */
+
+/*#region Classes */
+
+#classSubjects {
+
+}
+
+#classListTables {
+
+}
+
+/*#endregion */
+
+/*#region Team */
+
+
+
+/*#endregion */
+
+/*#region Contact */
+
+
+
+/*#endregion */
