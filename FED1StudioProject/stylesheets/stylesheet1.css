@@ -1,0 +1,35 @@
+﻿body {
+    background-color: #E8E6B7;
+    color: #453F59;
+}
+
+header {
+    color: #757257;
+    font-weight: bold;
+}
+
+#slogan {
+    font-style: italic;
+}
+
+#schoolName {
+    font-weight: bolder;
+}
+
+main {
+    
+}
+
+h1 {
+    color: #453F59;
+    font-weight: bold;
+}
+
+h2 {
+    color: #453F59;
+    font-weight: bold;
+}
+
+p {
+    font-style: italic;
+}
