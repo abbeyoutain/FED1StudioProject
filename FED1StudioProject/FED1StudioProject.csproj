@@ -68,6 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Classes.html" />
+    <Content Include="images\alhFavicon.ico" />
+    <Content Include="images\alhSmallLogo.png" />
+    <Content Include="images\alhLogo.png" />
     <Content Include="stylesheets\stylesheet1.css" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
@@ -87,7 +90,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>

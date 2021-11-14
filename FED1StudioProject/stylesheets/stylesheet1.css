@@ -4,7 +4,7 @@
 
 /*#endregion */
 
-/*#region base*/
+/*#region base/header*/
 body {
     color: #254069;
     background-color: #F8EEC4;
@@ -13,19 +13,32 @@ body {
 
 header {
     font-family: 'Lora', serif;
+    display: block;
 }
 
-main {
+header section {
+    display: inline-block;
 }
 
-h1 {
-    font-weight: bold;
+#logo {
+    max-width: 20%;
+    margin-left: 6%;
 }
 
-h2 {
+#nameAndSlogan {
+    margin-right: 10%;
+    float: right;
 }
 
-p {
+.socialMediaLogos {
+    font-size: 35px;
+    text-align: right;
+    min-width: 30%;
+    float: right;
+}
+
+.socialMediaLogos i {
+    margin-right: 8%;
 }
 
 /*#endregion */
