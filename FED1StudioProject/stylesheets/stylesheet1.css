@@ -1,16 +1,25 @@
-﻿/*#region base*/
+﻿/*#region Import */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;0,800;1,400&family=Lora:ital@0;1&display=swap');
+
+/*#endregion */
+
+/*#region base*/
 body {
     color: #254069;
     background-color: #F8EEC4;
+    font-family: 'EB Garamond', serif;
 }
 
 header {
+    font-family: 'Lora', serif;
 }
 
 main {
 }
 
 h1 {
+    font-weight: bold;
 }
 
 h2 {
@@ -43,6 +52,10 @@ nav ul {
     nav ul li {
         display: inline-block;
         margin: 10px 20px;
+    }
+
+    nav ul li a {
+        display: block;
     }
 
 /*#endregion */
