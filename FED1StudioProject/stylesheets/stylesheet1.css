@@ -7,8 +7,11 @@
 /*#region base/header/footer*/
 body {
     color: #254069;
-    background-color: #F8EEC4;
+    /*background-color: #F8EEC4;*/
     font-family: 'EB Garamond', serif;
+    background-image: url(/images/library-cropped.png);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
@@ -16,13 +19,16 @@ h1 {
 }
 
 header {
+    width: 95%;
+    margin: auto;
     font-family: 'Lora', serif;
     display: block;
+    background-color: rgba(248, 238, 196, .9);
 }
 
-header section {
-    display: inline-block;
-}
+    header section {
+        display: inline-block;
+    }
 
 #logo {
     max-width: 20%;
@@ -41,25 +47,30 @@ header section {
     float: right;
 }
 
-.socialMediaLogos i {
-    margin-right: 8%;
-}
+    .socialMediaLogos i {
+        margin-right: 8%;
+    }
 
 main {
     width: 95%;
+    padding: 2%;
     margin: auto;
-}
-
-footer {
-    border-top: solid 2px #254069;
-    padding: 2% 3% 3% 3%;
-    margin-top: 5%;
+    background-color: rgba(248, 238, 196, .9);
     box-sizing: border-box;
 }
 
-footer section {
-    display: inline-block;
+footer {
+    width: 95%;
+    margin: auto;
+    border-top: solid 2px #254069;
+    padding: 2% 3% 3% 3%;
+    box-sizing: border-box;
+    background-color: rgba(248, 238, 196, .9);
 }
+
+    footer section {
+        display: inline-block;
+    }
 
 .clear {
     clear: both;
@@ -69,13 +80,18 @@ footer section {
 
 /*#region Nav Bar */
 
+nav {
+    width: 95%;
+    margin: auto;
+}
+
 nav ul li a {
     color: #F8EEC4;
     font-weight: bold;
     text-decoration: none;
 }
 
-nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
+    nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
         text-decoration: none;
         background-color: #F8EEC4;
         color: #254069;
@@ -84,6 +100,7 @@ nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
 nav ul {
     background-color: #254069;
     padding: 0;
+    margin: 0;
 }
 
     nav ul li {
@@ -91,16 +108,16 @@ nav ul {
         margin: 10px 20px;
     }
 
-    nav ul li a {
-        display: block;
-    }
+        nav ul li a {
+            display: block;
+        }
 
 /*#endregion */
 
 /*#region Index */
 
 #chooseUs h1 {
-    text-align:center;
+    text-align: center;
 }
 
 #aboutUsLeft {
@@ -123,6 +140,21 @@ nav ul {
     float: right;
 }
 
+#pen {
+    width: 80%;
+    margin: auto;
+}
+
+#castleInterior {
+    width: 50%;
+    margin: auto;
+}
+
+#castle {
+    width: 50%;
+    margin: auto;
+}
+
 /*#endregion */
 
 /*#region Classes */
@@ -136,9 +168,6 @@ nav ul {
 /*#endregion */
 
 /*#region Team */
-
-#leadership {
-}
 
 #sales {
 }
@@ -163,7 +192,28 @@ nav ul {
     box-sizing: border-box;
 }
 
+.teamHeaders {
+    text-align: center;
+}
+
+.teamImageLeft {
+    width: 25%;
+    float: left;
+}
+
+.teamImage {
+    width: 80%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.teamTextRight {
+    width: 75%;
+    float: right;
+}
+
 /*#endregion */
+
 /*#region Contact */
 #contactUs {
     width: 50%;
