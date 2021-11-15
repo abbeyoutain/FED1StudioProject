@@ -4,11 +4,15 @@
 
 /*#endregion */
 
-/*#region base/header*/
+/*#region base/header/footer*/
 body {
     color: #254069;
     background-color: #F8EEC4;
     font-family: 'EB Garamond', serif;
+}
+
+h1 {
+    font-size: 2em;
 }
 
 header {
@@ -39,6 +43,26 @@ header section {
 
 .socialMediaLogos i {
     margin-right: 8%;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+}
+
+footer {
+    border-top: solid 2px #254069;
+    padding: 2% 3% 3% 3%;
+    margin-top: 5%;
+    box-sizing: border-box;
+}
+
+footer section {
+    display: inline-block;
+}
+
+.clear {
+    clear: both;
 }
 
 /*#endregion */
@@ -75,7 +99,29 @@ nav ul {
 
 /*#region Index */
 
+#chooseUs h1 {
+    text-align:center;
+}
 
+#aboutUsLeft {
+    width: 25%;
+    float: left;
+}
+
+#aboutUsRight {
+    width: 75%;
+    float: right;
+}
+
+#chooseUsLeft {
+    width: 50%;
+    float: left;
+}
+
+#chooseUsRight {
+    width: 50%;
+    float: right;
+}
 
 /*#endregion */
 
@@ -103,11 +149,26 @@ nav ul {
 #instructors {
 }
 
+#teamMain {
+    width: 80%;
+    float: left;
+    border-right: solid 2px #254069;
+    box-sizing: border-box;
+}
+
+#teamAside {
+    width: 20%;
+    float: right;
+    padding-left: 3%;
+    box-sizing: border-box;
+}
+
 /*#endregion */
-
 /*#region Contact */
-
 #contactUs {
+    width: 50%;
+    margin: auto;
+    text-align: center;
 }
 
 /*#endregion */
