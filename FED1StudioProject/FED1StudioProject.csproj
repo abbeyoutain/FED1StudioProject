@@ -86,6 +86,7 @@
     <Content Include="images\marianneDashwood-cropped.png" />
     <Content Include="images\maryPoppins-cropped.png" />
     <Content Include="images\pen-cropped.png" />
+    <Content Include="images\placeholder.png" />
     <Content Include="images\susanPevensie-cropped.png" />
     <Content Include="stylesheets\stylesheet1.css" />
     <Content Include="Team.html" />
