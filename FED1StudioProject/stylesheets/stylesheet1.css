@@ -31,8 +31,9 @@ header {
     }
 
 #logo {
-    max-width: 20%;
+    max-width: 19%;
     margin-left: 6%;
+    margin-top: 1%;
 }
 
 #nameAndSlogan {
@@ -85,32 +86,32 @@ nav {
     margin: auto;
 }
 
-nav ul li a {
-    color: #F8EEC4;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-    nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
+    nav ul li a {
+        color: #F8EEC4;
+        font-weight: bold;
         text-decoration: none;
-        background-color: #F8EEC4;
-        color: #254069;
     }
 
-nav ul {
-    background-color: #254069;
-    padding: 0;
-    margin: 0;
-}
-
-    nav ul li {
-        display: inline-block;
-        margin: 10px 20px;
-    }
-
-        nav ul li a {
-            display: block;
+        nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
+            text-decoration: none;
+            background-color: #F8EEC4;
+            color: #254069;
         }
+
+    nav ul {
+        background-color: #254069;
+        padding: 0;
+        margin: 0;
+    }
+
+        nav ul li {
+            display: inline-block;
+            margin: 10px 20px;
+        }
+
+            nav ul li a {
+                display: block;
+            }
 
 /*#endregion */
 
@@ -169,15 +170,6 @@ nav ul {
 
 /*#region Team */
 
-#sales {
-}
-
-#administration {
-}
-
-#instructors {
-}
-
 #teamMain {
     width: 80%;
     float: left;
@@ -191,6 +183,12 @@ nav ul {
     padding-left: 3%;
     box-sizing: border-box;
 }
+
+    #teamAside ul li a {
+        color: #254069;
+        font-weight: bold;
+        text-decoration: none;
+    }
 
 .teamHeaders {
     text-align: center;
