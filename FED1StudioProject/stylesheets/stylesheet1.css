@@ -40,6 +40,12 @@ header {
 #nameAndSlogan {
     margin-right: 10%;
     float: right;
+    width: 60%;
+}
+
+#slogan {
+    color: #5D0808;
+    font-style: italic;
 }
 
 .socialMediaLogos {
@@ -94,9 +100,7 @@ nav {
     }
 
         nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
-            text-decoration: none;
-            background-color: #F8EEC4;
-            color: #254069;
+            text-decoration: underline;
         }
 
     nav ul {
@@ -114,9 +118,17 @@ nav {
                 display: block;
             }
 
+            nav ul li a.currentPage {
+                text-decoration: underline;
+            }
+
 /*#endregion */
 
 /*#region Index */
+
+#aboutUs {
+    margin-left: 5%;
+}
 
 #chooseUs h1 {
     text-align: center;
@@ -147,14 +159,23 @@ nav {
     margin: auto;
 }
 
+#chooseUsRight div, #chooseUsLeft div {
+    height: 440px;
+}
+
+#chooseUsLeftText {
+    width: 90%;
+    margin-left: 10%;
+}
+
 #castleInterior {
-    width: 50%;
+    width: 90%;
     margin: auto;
 }
 
 #castle {
-    width: 50%;
-    margin: auto;
+    width: 90%;
+    margin-left: 10%;
 }
 
 /*#endregion */
@@ -178,10 +199,45 @@ nav {
     width: 100%;
 }
 
+.galleryItem h4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.galleryItem p {
+    min-height: 100px;
+}
+.classTables {
+    width: 80%;
+    margin: auto;
+}
+
+.classListTable {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: solid 2px #254069;
+    border-top: none;
+    border-spacing: 0;
+}
+
+thead {
+    color: #F8EEC4;
+    background-color: rgba(37, 64, 105, .75);
+}
+tr:nth-child(2) {
+    background-color: rgba(37, 64, 105, .25);
+}
+
 /*#endregion */
 
 /*#region Team */
-
 #teamMain {
     width: 80%;
     float: left;
@@ -196,11 +252,20 @@ nav {
     box-sizing: border-box;
 }
 
+    #teamAside ul {
+        padding-inline-start: 20px;
+    }
+
     #teamAside ul li a {
         color: #254069;
         font-weight: bold;
         text-decoration: none;
     }
+
+        #teamAside ul li a:hover, #teamAside ul li a:active, #teamAside ul li a:focus {
+            text-decoration: underline;
+            text-decoration-color: #5D0808;
+        }
 
 .teamHeaders {
     text-align: center;
