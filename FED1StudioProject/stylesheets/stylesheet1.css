@@ -118,9 +118,9 @@ nav {
                 display: block;
             }
 
-            nav ul li a.currentPage {
-                text-decoration: underline;
-            }
+                nav ul li a.currentPage {
+                    text-decoration: underline;
+                }
 
 /*#endregion */
 
@@ -195,18 +195,23 @@ nav {
     border: solid 2px #254069;
 }
 
-.galleryItem a img {
-    width: 100%;
-}
+    .galleryItem:hover {
+        border: solid 4px #254069;
+    }
 
-.galleryItem h4 {
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
+    .galleryItem a img {
+        width: 100%;
+    }
 
-.galleryItem p {
-    min-height: 100px;
-}
+    .galleryItem h4 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .galleryItem p {
+        min-height: 100px;
+    }
+
 .classTables {
     width: 80%;
     margin: auto;
@@ -231,8 +236,62 @@ thead {
     color: #F8EEC4;
     background-color: rgba(37, 64, 105, .75);
 }
+
 tr:nth-child(2) {
     background-color: rgba(37, 64, 105, .25);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    left: 0;
+    background-color: rgba(37, 64, 105, .95);
+    overflow-x: hidden;
+    padding-top: 100px;
+    transition: .3s;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 45px;
+        text-decoration: none;
+        font-size: 17px;
+        color: #F8EEC4;
+        display: block;
+        transition: .3s;
+    }
+
+        .sidenav a:hover {
+            text-decoration: underline;
+        }
+
+.close-btn {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 30px !important;
+    margin-left: 50px;
+}
+
+.button {
+    background: rgba(37, 64, 105, .8);
+    height: 100%;
+    width: 20px;
+    z-index: 1030;
+    position: fixed;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.vertical-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    writing-mode: vertical-rl;
+    color: #F8EEC4;
 }
 
 /*#endregion */
@@ -256,16 +315,16 @@ tr:nth-child(2) {
         padding-inline-start: 20px;
     }
 
-    #teamAside ul li a {
-        color: #254069;
-        font-weight: bold;
-        text-decoration: none;
-    }
-
-        #teamAside ul li a:hover, #teamAside ul li a:active, #teamAside ul li a:focus {
-            text-decoration: underline;
-            text-decoration-color: #5D0808;
+        #teamAside ul li a {
+            color: #254069;
+            font-weight: bold;
+            text-decoration: none;
         }
+
+            #teamAside ul li a:hover, #teamAside ul li a:active, #teamAside ul li a:focus {
+                text-decoration: underline;
+                text-decoration-color: #5D0808;
+            }
 
 .teamHeaders {
     text-align: center;

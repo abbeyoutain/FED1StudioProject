@@ -20,9 +20,9 @@
             </article>
         </section>
         <section class="socialMediaLogos">
-            <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            <i class="fa fa-twitter-square" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <a href="http://www.facebook.com/learnwithus" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="http://twitter.com/weteachstuff" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="http://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </section>
     </header>
     <nav>
@@ -84,7 +84,7 @@
             </div>
         </section>
 
-        <div class = "classTables">
+        <div class="classTables">
             <section id="childhoodPsychology" class="classListTable">
                 <h1>Childhood Psychology - Class List</h1>
                 <table>
@@ -291,14 +291,44 @@
         </div>
 
     </main>
+
+    <!-- Classes Button -->
+    <div id="classes-btn" class="button" onclick="openClassesNav()">
+        <span class="vertical-text">CLASSES</span>
+    </div>
+
+    <!-- Classes Nav -->
+    <div id="classes-nav" class="sidenav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeClassesNav()">&times;</a>
+        <a href="#childhoodPsychology">Childhood Psychology</a>
+        <a href="#childhoodDevelopment">Childhood Development</a>
+        <a href="#watercolorPainting">Watercolor Painting</a>
+        <a href="#figureDrawing">Figure Drawing</a>
+        <a href="#creativeWriting">Creative Writing</a>
+        <a href="#comedicWriting">Comedic Writing</a>
+    </div>
+
+    <!-- Toggle Classes Menu -->
+    <script type="text/javascript">
+        function openClassesNav() {
+            document.getElementById('classes-btn').style.display = "none";
+            document.getElementById('classes-nav').style.width = "225px";
+        }
+
+        function closeClassesNav() {
+            document.getElementById('classes-btn').style.display = "block";
+            document.getElementById('classes-nav').style.width = "0";
+        }
+    </script>
+
     <footer>
         <section>
             &copy; 2022 Abbey Outain
         </section>
         <section class="socialMediaLogos">
-            <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            <i class="fa fa-twitter-square" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <a href="http://www.facebook.com/learnwithus" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="http://twitter.com/weteachstuff" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="http://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </section>
     </footer>
 </body>
