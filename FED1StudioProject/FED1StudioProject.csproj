@@ -75,10 +75,15 @@
     <Content Include="images\castle-cropped.png" />
     <Content Include="images\castleInterior-cropped.png" />
     <Content Include="images\charlotteLucas-cropped.png" />
+    <Content Include="images\childhoodDevelopment-cropped.jpg" />
+    <Content Include="images\childhoodPsychology-cropped.jpg" />
+    <Content Include="images\comedicWriting-cropped.jpg" />
+    <Content Include="images\creativeWriting-cropped.jpg" />
     <Content Include="images\dorothyGale-cropped.png" />
     <Content Include="images\elinorDashwood-cropped.png" />
     <Content Include="images\elizabethBennet-cropped.png" />
     <Content Include="images\emmaWoodhouse-cropped.png" />
+    <Content Include="images\figureDrawing-cropped.jpg" />
     <Content Include="images\janeBennet-cropped.png" />
     <Content Include="images\janeEyre-cropped.png" />
     <Content Include="images\library-cropped.png" />
@@ -88,6 +93,7 @@
     <Content Include="images\pen-cropped.png" />
     <Content Include="images\placeholder.png" />
     <Content Include="images\susanPevensie-cropped.png" />
+    <Content Include="images\watercolorPainting-cropped.jpg" />
     <Content Include="stylesheets\stylesheet1.css" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
