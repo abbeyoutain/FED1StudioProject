@@ -214,6 +214,7 @@ nav {
 
     .galleryItem p {
         min-height: 100px;
+        font-size: 18px;
     }
 
 .classTables {
@@ -348,6 +349,14 @@ tr:nth-child(2) {
 .teamTextRight {
     width: 75%;
     float: right;
+}
+
+.teamTextRight h4 {
+    font-size: 20px;
+}
+
+.teamTextRight p {
+    font-size: 18px;
 }
 
 /*#endregion */
