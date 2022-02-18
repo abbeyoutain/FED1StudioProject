@@ -136,6 +136,10 @@ nav {
 
 #chooseUs h1 {
     text-align: center;
+    font-size: 3em;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin: auto;
 }
 
 #aboutUsLeft {
@@ -148,10 +152,14 @@ nav {
     float: right;
 }
 
-#chooseUsLeft {
-    width: 50%;
-    float: left;
-}
+    #aboutUsRight p {
+        font-size: 20px;
+    }
+
+    #chooseUsLeft {
+        width: 50%;
+        float: left;
+    }
 
 #chooseUsRight {
     width: 50%;
@@ -167,14 +175,35 @@ nav {
     height: 440px;
 }
 
+#chooseUsRightText {
+    font-size: 25px;
+    display: inline-block;
+    padding-left: 10%;
+    padding-right: 20%;
+}
+
 #chooseUsLeftText {
-    width: 90%;
-    margin-left: 10%;
+    /*width: 90%;
+    margin-left: 10%;*/
+    font-size: 25px;
+    display: inline-block;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 10%;
+}
+
+#chooseUsLeftImage {
+    display: inline-block;
+}
+
+#chooseUsRightImage {
+    display: inline-block;
+    padding-top: 15%;
 }
 
 #castleInterior {
     width: 90%;
-    margin: auto;
+    margin-right: 10%;
 }
 
 #castle {
@@ -314,6 +343,7 @@ tr:nth-child(2) {
     float: right;
     padding-left: 3%;
     box-sizing: border-box;
+    font-size: 18px;
 }
 
     #teamAside ul {
